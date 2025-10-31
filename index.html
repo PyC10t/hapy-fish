@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hapy FHSH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <!-- MENÚ PRINCIPAL -->
+  <div id="menu">
+    <h1>Hapy FHSH</h1>
+    <button id="startBtn">Iniciar Juego</button>
+    <p>Espacio o toque: Saltar</p>
+    <p>Evita los tubos y llega lo más lejos posible</p>
+    <p>Cada tubo pasado = +1 punto</p>
+    </div>
+  </div>
+
+  <!-- PANTALLA FINAL -->
+  <div id="gameOverScreen">
+    <h1 id="endMessage"></h1>
+    <button id="restartBtn">Reiniciar</button><br>
+    <button id="menuBtn">Menú Principal</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
